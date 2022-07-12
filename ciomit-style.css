@@ -56,3 +56,10 @@
     margin-left: 10px;
     line-height: normal;
 }
+
+/* Media */
+@media (min-width: 1200px) {
+    .container {
+        width: 100% !important;
+    }
+}

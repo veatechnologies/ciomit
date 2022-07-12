@@ -1,6 +1,16 @@
 .menubg {
     background-color: #fff !important;
 }
+.menubg .navbar-nav {
+    padding-top: 2.3em;
+}
+#mainNav .dropdown-menu > li > a {
+    color: #000 !important;
+    background-color: #fff !important;
+    border: 0px !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+}
 #mainNav.navbar-default .navbar-nav > li > a,
 #mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a,
 #mainNav.navbar-default .navbar-nav > li > a:hover,
@@ -8,4 +18,19 @@
 #mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 #mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #000 !important;
+}
+#mainNav .dropdown-menu,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #fff !important;
+    border: 0px !important;
+}
+#mainNav.navbar-default .navbar-nav > li > a,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+#mainNav.navbar-default .navbar-nav > li > a:hover,
+#mainNav.navbar-default .navbar-nav > li > a:focus,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000 !important;
+    font-size: 15px !important;
 }

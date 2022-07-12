@@ -44,3 +44,15 @@
 .dropdown-menu > li > a {
     padding: 10px 20px 10px 20px;
 }
+.dropdown-toggle::after {
+    content: "\f078";
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-size: .8rem;
+    font-weight: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 10px;
+    line-height: normal;
+}

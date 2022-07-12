@@ -1,3 +1,11 @@
 .menubg {
     background-color: #fff !important;
 }
+#mainNav.navbar-default .navbar-nav > li > a,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+#mainNav.navbar-default .navbar-nav > li > a:hover,
+#mainNav.navbar-default .navbar-nav > li > a:focus,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000 !important;
+}

@@ -11,6 +11,18 @@
     font-size: 15px !important;
     font-weight: 300 !important;
 }
+#mainNav .dropdown-menu,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #fff !important;
+    border: 2px solid #000 !important;
+    border-radius: 0;
+}
+#mainNav .dropdown-menu > li > a:hover,
+#mainNav .dropdown-menu > li > a:focus {
+    color: #bababa !important;
+    background-color: #fff !important;
+}
 #mainNav.navbar-default .navbar-nav > li > a,
 #mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a,
 #mainNav.navbar-default .navbar-nav > li > a:hover,
@@ -18,13 +30,6 @@
 #mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 #mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #000 !important;
-}
-#mainNav .dropdown-menu,
-#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-#mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    background-color: #fff !important;
-    border: 2px solid #000 !important;
-    border-radius: 0;
 }
 #mainNav.navbar-default .navbar-nav > li > a,
 #mainNav.navbar-default .navbar-nav .open .dropdown-menu > li > a,

@@ -246,8 +246,14 @@ body {font-family: rustica, sans-serif !important;}
     border-color: #E2211C !important;
 }
 
+h1 {
+    font-size: 40px !important;
+    line-height: 44px !important;
+    font-weight: 600 !important;
+}
+
 .bgFooter h1 {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 .bgFooter {
